@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "id": "morning-briefing",
+      "name": "Morning Briefing",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "payload": {
+        "kind": "agent_turn",
+        "message": "Check today's calendar, weather forecast, and any pending reminders. Give a brief morning summary."
+      },
+      "delete_after_run": false
+    }
+  ]
+}

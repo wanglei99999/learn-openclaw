@@ -1,0 +1,42 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Runtime-generated workspace state (auto-managed by agent)
+workspace/.sessions/
+workspace/.agents/
+workspace/memory/
+
+# Delivery queue (auto-managed by s08+)
+workspace/delivery_queue/
+workspace/*.queue
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
